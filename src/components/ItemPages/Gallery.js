@@ -39,7 +39,7 @@ export default function Gallery() {
 
           <div className="flex flex-wrap mb-16 -m-2">
 
-          <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 py-12 rounded-2xl lg:grid-cols-3">
             <img
               className="object-cover object-center rounded"
               alt="logo"
