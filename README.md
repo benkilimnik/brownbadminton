@@ -1,6 +1,6 @@
 # Welcome to brownbadminton
 
-This repository contains code for the official Brown Badminton website hosted at [brownbadminton.space](https://brownbadminton.space). It is custom designed and written with React and TailwindCSS.
+This repository contains code for the official Brown Badminton website hosted at [brownbadminton.netlify.app](https://brownbadminton.netlify.app). It is custom designed and written with React and TailwindCSS.
 
 
 # Getting Started with Create React App
