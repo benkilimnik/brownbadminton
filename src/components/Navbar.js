@@ -18,7 +18,7 @@ export default function Navbar({ navItems }) {
               alt="hero"
               src={sbudnic4}
             /> */}
-              SBUDNIC
+              Brown Badminton
             </Link>
             <button
               className="block px-3 py-1 btn btn-ghost md:hidden"

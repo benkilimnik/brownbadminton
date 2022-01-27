@@ -3,6 +3,9 @@ import Footer from "../Footer"
 import { Link } from "react-router-dom"
 import {
   a,
+  lining,
+  // brown,
+  bears2,
   // b,
   // c,
   // d,
@@ -85,7 +88,7 @@ We put the B in Badminton          </h1>
           </p>
           <div className="invisible py-4 text-gray-900 lg:visible">
             <Countdown
-              date={Date.now() + calcTimeDelta("2022-03-03T00:00:00").total}
+              date={Date.now() + calcTimeDelta("2022-04-02T00:00:00").total}
               renderer={renderer}
             />
           </div>
@@ -112,38 +115,23 @@ We put the B in Badminton          </h1>
             src={a}
           />
           {/* <p className="pt-4 text-xl">Supported by:</p> */}
-          {/* <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3">
+          <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3">
             <img
               className="object-cover object-center rounded"
               alt="logo"
-              src={b}
+              src={lining}
             />
+            {/* <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={brown}
+            /> */}
             <img
               className="object-cover object-center rounded"
               alt="logo"
-              src={c}
+              src={bears2}
             />
-            <img
-              className="object-cover object-center rounded"
-              alt="logo"
-              src={d}
-            />
-            <img
-              className="object-cover h-3/4 object-center mx-auto rounded"
-              alt="logo"
-              src={d}
-            />
-            <img
-              className="object-cover object-center rounded"
-              alt="logo"
-              src={e}
-            />
-            <img
-              className="object-cover object-center rounded"
-              alt="logo"
-              src={f}
-            />
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

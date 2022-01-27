@@ -5,10 +5,12 @@ import {navItems} from "./components/content/navitems"
 
 // Components, Item Pages
 import Home from "./components/ItemPages/Home"
-import Team from "./components/ItemPages/Team"
-import News from "./components/ItemPages/News"
-import About from "./components/ItemPages/About"
-import Progress from "./components/ItemPages/Progress"
+// import Team from "./components/ItemPages/Team"
+// import News from "./components/ItemPages/News"
+// import About from "./components/ItemPages/About"
+// import Progress from "./components/ItemPages/Progress"
+import Gallery from "./components/ItemPages/Gallery"
+import Sponsors from "./components/ItemPages/Sponsors"
 
 const App = () => (
   <BrowserRouter>
@@ -18,10 +20,10 @@ const App = () => (
     ))} */}
     <Route exact path="/" component={Home} />
     <Route exact path="/home" component={Home} />
-    <Route exact path="/about" component={About} />
-    <Route exact path="/team" component={Team} />
-    <Route exact path="/news" component={News} />
-    <Route exact path="/progress" component={Progress} />
+    <Route exact path="/gallery" component={Gallery} />
+    {/* <Route exact path="/team" component={Team} /> */}
+    {/* <Route exact path="/news" component={News} /> */}
+    <Route exact path="/sponsors" component={Sponsors} />
   </BrowserRouter>
 )
 
