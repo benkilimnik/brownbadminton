@@ -94,17 +94,17 @@ We put the B in Badminton          </h1>
           </div>
           <div className="flex justify-center">
             <Link
-              to="/about"
+              to="/gallery"
               className="inline-flex px-6 py-3 text-xl text-white transition duration-500 ease-out transform border-0 rounded bg-primary focus:outline-none hover:bg-indigo-800 hover:scale-110 active:scale-110 focus:scale-110"
               // className="px-3 pt-4 mb-1 mr-1 text-xs font-bold text-indigo-500 uppercase transition duration-500 ease-out transform border-t-2 outline-none hover:scale-110 hover:opacity-100 background-transparent active:scale-110 focus:scale-110 hover:text-indigo-600"
             >
-              About
+              Gallery
             </Link>
             <Link
-              to="/news"
+              to="/sponsors"
               className="inline-flex px-6 py-3 ml-4 text-lg text-white duration-500 ease-out transform border-0 rounded bg-secondary focus:outline-none hover:bg-red-500 hover:scale-110 active:scale-110 focus:scale-110"
             >
-              News
+              Sponsors
             </Link>
           </div>
         </div>
