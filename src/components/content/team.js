@@ -33,7 +33,7 @@ const team = [
     id: 2,
     title: "Lachlan MacKenzie",
     subtitle:
-      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
+      "",
     team: "leadership",
     category: "",
     position: "Co-Captain",
@@ -43,7 +43,7 @@ const team = [
     id: 3,
     title: "Kush Patel",
     subtitle:
-      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
+      "",
     team: "leadership",
     category: "",
     position: "Co-Captain",
@@ -53,7 +53,7 @@ const team = [
     id: 4,
     title: "Wayne Luan",
     subtitle:
-      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
+      "",
     team: "leadership",
     category: "",
     position: "Chief Designer",
