@@ -1,4 +1,3 @@
-
 import a from "../../assets/a.jpg"
 import b from "../../assets/b.jpg"
 import c from "../../assets/c.jpg"
@@ -20,16 +19,16 @@ import s from "../../assets/s.jpg"
 import w from "../../assets/w.jpg"
 import g from "../../assets/g.jpg"
 
-import lining from "../../assets/lining.png"
-import lining2 from "../../assets/lining2.png"
+// import lining from "../../assets/lining.png"
+// import lining2 from "../../assets/lining2.png"
 import bears from "../../assets/bears.png"
 import bears2 from "../../assets/bears2.png"
 
 export {
   bears,
   bears2,
-  lining,
-  lining2,
+  // lining,
+  // lining2,
   a,
   b,
   c,

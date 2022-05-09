@@ -3,7 +3,7 @@ import Footer from "../Footer"
 import { Link } from "react-router-dom"
 import {
   a,
-  lining,
+  // lining,
   // brown,
   bears2,
   // b,
@@ -54,7 +54,8 @@ const Home = () => (
       <div className="container flex flex-col items-center px-5 py-12 mx-auto sm:py-24 md:flex-row">
         <div className="flex flex-col items-center w-11/12 mb-16 text-center sm:w-full lg:flex-grow md:w-6/12 xl:pr-72 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
           <h1 className="mb-8 text-3xl font-bold text-gray-900 lg:pb-8 title-font lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl sm:mb-4">
-We put the B in Badminton          </h1>
+            We put the B in Badminton{" "}
+          </h1>
 
           {/* <div className="invisible hidden 2xl:visible 2xl:grid 2xl:items-center 2xl:grid-cols-4 2xl:pb-12 2xl:align-center">
             <div className="2xl:pr-12">
@@ -88,7 +89,7 @@ We put the B in Badminton          </h1>
           </p>
           <div className="invisible py-4 text-gray-900 lg:visible">
             <Countdown
-              date={Date.now() + calcTimeDelta("2022-04-02T00:00:00").total}
+              date={Date.now() + calcTimeDelta("2022-09-02T00:00:00").total}
               renderer={renderer}
             />
           </div>
@@ -116,11 +117,11 @@ We put the B in Badminton          </h1>
           />
           {/* <p className="pt-4 text-xl">Supported by:</p> */}
           <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3">
-            <img
+            {/* <img
               className="object-cover object-center rounded"
               alt="logo"
               src={lining}
-            />
+            /> */}
             {/* <img
               className="object-cover object-center rounded"
               alt="logo"
